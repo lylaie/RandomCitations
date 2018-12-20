@@ -3,7 +3,7 @@
 
   /* --- The citations are in French because I'm French, sooooo enjoy ! ---
 
-  The structure is the followgin :
+  The structure is the following :
 
   {
     "number" : use to generate an array to choose a random quote not already use;
@@ -77,15 +77,22 @@
     }
   ]
 
-  /* FONCTIONS */
+
+/* CONSTANTES */
+
 
   var number = []
-  var backgroundList = ['red', 'yellow', 'blue', 'pink', '#FF7F50'];
+  var backgroundList = ['red', 'grey', 'blue', 'pink', '#FF7F50'];
+
+  /* FONCTIONS */
+
+
+//Initialization
 
   var myVar = setInterval(function(){
     document.body.style.backgroundColor = backgroundRandom();
     printQuote();
-  }, 1500);
+  }, 3000);
 
   //Function who fillup the array number. Use to choose a Random object in the array quote
   function fillNumber(number){
@@ -116,7 +123,7 @@
   }
 
 
-  // Principal function to printQuote
+  // Principal function to printQuote : add HTML inside index.html with the quote choose by the getRandomQuote()
 
   function printQuote(){
     var a = getRandomQuote();
