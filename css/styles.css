@@ -1,0 +1,23 @@
+body {
+  background: #FF7F50;
+  border-radius: border-box;
+}
+
+h1 {
+  font-size: 80px;
+  font-variant : small-caps;
+  text-align: center;
+  padding-top: 5%;
+  color: white;
+}
+
+.quote {
+  font-size: 60px;
+  margin-left:10%;
+}
+
+.quote cite {
+  font-size: 30px;
+  align-content: right;
+  margin-left:70%;
+}
